@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+}
+.container{
+    display: grid;
+    place-items: center;
+   
+    margin: 0 auto;
+    height: 500px;
+    width: 90%;
+    
+}
+.button{
+    height: 110px;
+    width: 110px;
+    display: inline;
+    align-items: center;
+    border-radius: 6px;
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid blue;
+}
+.button:hover{
+    height: 140px;
+    width: 140px;
+    display: inline;
+    align-items: center;
+    border-radius: 6px;
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid rgb(0, 255, 208);
+    cursor: pointer;
+}
+img{
+    height: 70px;
+    width: 70px;
+}
+.res{
+   background-color: aqua;
+   font-size: large;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   border: 2px solid black;
+   border-radius: 4px;
+   padding: 5px 15px;
+    margin: 31px;
+}
+h1{
+    background-color: rgb(9, 154, 238);
+    border-bottom: 2px solid black;
+    padding: 2px;
+    text-align: center;
+}
+#game{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5.5px;
+    padding: 5px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.score{
+    margin-right: 10px;
+    margin-left: 5px;
+    text-align: left;
+    font-size: large;
+}
+.compScore{
+    margin-right: 5px;
+    margin-left: 10px;
+    text-align: right;
+    font-size: large;
+}
+.newGame{
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 8px 20px;
+    
+    border-radius: 6px;   
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.newGame:hover{
+    background-color: blue;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 8px 20px;
+    align-items: center;
+    border-radius: 6px;   
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.toggle{
+    
+    
+    text-align: center;
+    font-size: medium;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 90%;
+    padding: 2px 5px;
+    background-color: black;
+    color: white;
+     border-radius: 6px;
+}
+.toggle:hover{
+    
+    
+    text-align: center;
+    font-size: medium;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 90%;
+    padding: 2px 5px;
+    background-color: rgba(0, 0, 0, 0.386);
+    color: white;
+     border-radius: 6px;
+}
